@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>aktieverktyg</id>
+    <name>Aktieverktyg</name>
+    <summary>aktievärktyg</summary>
+    <description><![CDATA[my first NC applikation 
+stockmarketanalysis tool
+aktieverktyg]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="felix.kozma2@gmail.com" homepage="https://www.alaktie.se">Felix Kozma</author>
+    <namespace>Aktieverktyg</namespace>
+    <category>tools</category>
+    <bugs>https://www.alaktie.se</bugs>
+    <dependencies>
+        <nextcloud min-version="14" max-version="14"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Aktieverktyg</name>
+            <route>aktieverktyg.page.index</route>
+        </navigation>
+    </navigations>
+</info>
